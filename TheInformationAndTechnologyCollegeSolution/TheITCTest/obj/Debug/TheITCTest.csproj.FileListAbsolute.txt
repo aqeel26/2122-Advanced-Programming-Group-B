@@ -1,0 +1,14 @@
+C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationAndTechnologyCollegeSolution\TheITCTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationAndTechnologyCollegeSolution\TheITCTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationAndTechnologyCollegeSolution\TheITCTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationAndTechnologyCollegeSolution\TheITCTest\bin\Debug\TheITCTest.dll
+C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationAndTechnologyCollegeSolution\TheITCTest\bin\Debug\TheITCTest.pdb
+C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationAndTechnologyCollegeSolution\TheITCTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationAndTechnologyCollegeSolution\TheITCTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationAndTechnologyCollegeSolution\TheITCTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationAndTechnologyCollegeSolution\TheITCTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationAndTechnologyCollegeSolution\TheITCTest\obj\Debug\TheITCTest.csproj.CoreCompileInputs.cache
+C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationAndTechnologyCollegeSolution\TheITCTest\obj\Debug\TheITCTest.csproj.CopyComplete
+C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationAndTechnologyCollegeSolution\TheITCTest\obj\Debug\TheITCTest.dll
+C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationAndTechnologyCollegeSolution\TheITCTest\obj\Debug\TheITCTest.pdb
+C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationAndTechnologyCollegeSolution\TheITCTest\obj\Debug\TheITCTest.csproj.AssemblyReference.cache
