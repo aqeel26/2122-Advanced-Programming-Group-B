@@ -11,107 +11,107 @@ using TheInformationAndTechnologyCollege.Models;
 
 namespace TheInformationAndTechnologyCollege.Controllers
 {
-    public class UsersController : Controller
+    public class UserRegistrationsController : Controller
     {
-        private usersContext db = new usersContext();
+        private userRegistrationContext db = new userRegistrationContext();
 
-        // GET: Users
+        // GET: UserRegistrations
         public ActionResult Index()
         {
-            return View(db.Users.ToList());
+            return View(db.UserRegistrations.ToList());
         }
 
-        // GET: Users/Details/5
+        // GET: UserRegistrations/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Users users = db.Users.Find(id);
-            if (users == null)
+            UserRegistration userRegistration = db.UserRegistrations.Find(id);
+            if (userRegistration == null)
             {
                 return HttpNotFound();
             }
-            return View(users);
+            return View(userRegistration);
         }
 
-        // GET: Users/Create
+        // GET: UserRegistrations/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Users/Create
+        // POST: UserRegistrations/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "UsersID,Name,LastName,PhoneNumber,Address,City,PostCode")] Users users)
+        public ActionResult Create([Bind(Include = "UserRegistrationID,Name,LastName,PhoneNumber,Address,City,PostCode")] UserRegistration userRegistration)
         {
             if (ModelState.IsValid)
             {
-                db.Users.Add(users);
+                db.UserRegistrations.Add(userRegistration);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(users);
+            return View(userRegistration);
         }
 
-        // GET: Users/Edit/5
+        // GET: UserRegistrations/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Users users = db.Users.Find(id);
-            if (users == null)
+            UserRegistration userRegistration = db.UserRegistrations.Find(id);
+            if (userRegistration == null)
             {
                 return HttpNotFound();
             }
-            return View(users);
+            return View(userRegistration);
         }
 
-        // POST: Users/Edit/5
+        // POST: UserRegistrations/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "UsersID,Name,LastName,PhoneNumber,Address,City,PostCode")] Users users)
+        public ActionResult Edit([Bind(Include = "UserRegistrationID,Name,LastName,PhoneNumber,Address,City,PostCode")] UserRegistration userRegistration)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(users).State = EntityState.Modified;
+                db.Entry(userRegistration).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(users);
+            return View(userRegistration);
         }
 
-        // GET: Users/Delete/5
+        // GET: UserRegistrations/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Users users = db.Users.Find(id);
-            if (users == null)
+            UserRegistration userRegistration = db.UserRegistrations.Find(id);
+            if (userRegistration == null)
             {
                 return HttpNotFound();
             }
-            return View(users);
+            return View(userRegistration);
         }
 
-        // POST: Users/Delete/5
+        // POST: UserRegistrations/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Users users = db.Users.Find(id);
-            db.Users.Remove(users);
+            UserRegistration userRegistration = db.UserRegistrations.Find(id);
+            db.UserRegistrations.Remove(userRegistration);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

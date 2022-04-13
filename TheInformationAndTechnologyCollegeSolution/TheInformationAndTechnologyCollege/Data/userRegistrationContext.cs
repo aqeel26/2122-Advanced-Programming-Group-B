@@ -6,7 +6,7 @@ using System.Web;
 
 namespace TheInformationAndTechnologyCollege.Data
 {
-    public class usersContext : DbContext
+    public class userRegistrationContext : DbContext
     {
         // You can add custom code to this file. Changes will not be overwritten.
         // 
@@ -15,10 +15,10 @@ namespace TheInformationAndTechnologyCollege.Data
         // For more information refer to the documentation:
         // http://msdn.microsoft.com/en-us/data/jj591621.aspx
     
-        public usersContext() : base("name=usersContext")
+        public userRegistrationContext() : base("name=userRegistrationContext")
         {
         }
 
-        public System.Data.Entity.DbSet<TheInformationAndTechnologyCollege.Models.Users> Users { get; set; }
+        public System.Data.Entity.DbSet<TheInformationAndTechnologyCollege.Models.UserRegistration> UserRegistrations { get; set; }
     }
 }

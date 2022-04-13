@@ -1,4 +1,4 @@
-﻿@model IEnumerable<TheInformationAndTechnologyCollege.Models.Users>
+﻿@model IEnumerable<TheInformationAndTechnologyCollege.Models.UserRegistration>
 
 @{
     Layout = null;
@@ -59,9 +59,9 @@
                 @Html.DisplayFor(modelItem => item.PostCode)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id=item.UsersID }) |
-                @Html.ActionLink("Details", "Details", new { id=item.UsersID }) |
-                @Html.ActionLink("Delete", "Delete", new { id=item.UsersID })
+                @Html.ActionLink("Edit", "Edit", new { id=item.UserRegistrationID }) |
+                @Html.ActionLink("Details", "Details", new { id=item.UserRegistrationID }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.UserRegistrationID })
             </td>
         </tr>
     }
