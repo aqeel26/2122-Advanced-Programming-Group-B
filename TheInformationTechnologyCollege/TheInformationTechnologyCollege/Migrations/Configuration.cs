@@ -35,8 +35,9 @@ namespace TheInformationTechnologyCollege.Migrations
                 new Course{CourseID=2, CourseName="Software Enginering"},
                 new Course{CourseID=3, CourseName="Cyber Security"}
             };
+            /*
             courses.ForEach(course => context.Course.AddOrUpdate(p => p.courseId, course));
-            context.SaveChanges();
+            context.SaveChanges();*/
         }
     }
 }
