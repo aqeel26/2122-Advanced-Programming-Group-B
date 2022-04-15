@@ -105,3 +105,4 @@ C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\
 C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationTechnologyCollege\TheInformationTechnologyCollege\obj\Debug\TheInformationTechnologyCollege.csproj.CopyComplete
 C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationTechnologyCollege\TheInformationTechnologyCollege\obj\Debug\TheInformationTechnologyCollege.dll
 C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationTechnologyCollege\TheInformationTechnologyCollege\obj\Debug\TheInformationTechnologyCollege.pdb
+C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationTechnologyCollege\TheInformationTechnologyCollege\obj\Debug\TheInformationTechnologyCollege.csproj.AssemblyReference.cache

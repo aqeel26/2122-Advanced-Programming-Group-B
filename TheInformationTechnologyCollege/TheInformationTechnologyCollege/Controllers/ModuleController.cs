@@ -11,17 +11,17 @@ using TheInformationTechnologyCollege.Models;
 
 namespace TheInformationTechnologyCollege.Controllers
 {
-    public class ModulesController : Controller
+    public class ModuleController : Controller
     {
         private ModuleContext db = new ModuleContext();
 
-        // GET: Modules
+        // GET: Module
         public ActionResult Index()
         {
             return View(db.Modules.ToList());
         }
 
-        // GET: Modules/Details/5
+        // GET: Module/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -36,13 +36,13 @@ namespace TheInformationTechnologyCollege.Controllers
             return View(module);
         }
 
-        // GET: Modules/Create
+        // GET: Module/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Modules/Create
+        // POST: Module/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -59,7 +59,7 @@ namespace TheInformationTechnologyCollege.Controllers
             return View(module);
         }
 
-        // GET: Modules/Edit/5
+        // GET: Module/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -74,7 +74,7 @@ namespace TheInformationTechnologyCollege.Controllers
             return View(module);
         }
 
-        // POST: Modules/Edit/5
+        // POST: Module/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -90,7 +90,7 @@ namespace TheInformationTechnologyCollege.Controllers
             return View(module);
         }
 
-        // GET: Modules/Delete/5
+        // GET: Module/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -105,7 +105,7 @@ namespace TheInformationTechnologyCollege.Controllers
             return View(module);
         }
 
-        // POST: Modules/Delete/5
+        // POST: Module/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)

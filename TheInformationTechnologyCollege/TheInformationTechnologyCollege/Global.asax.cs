@@ -15,7 +15,7 @@ namespace TheInformationTechnologyCollege
         protected void Application_Start()
         {
            // Database.SetInitializer(new CourseDataInitializer());
-            Database.SetInitializer(new TutorDataInitializer());
+            //Database.SetInitializer(new TutorDataInitializer());
             Database.SetInitializer(new ModuleDataInitializer());
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
