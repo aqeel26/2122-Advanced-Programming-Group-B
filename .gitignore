@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/TheInformationTechnologyCollege/TheInformationTechnologyCollege/App_Data/CourseContext-20220414180350.mdf
+/TheInformationTechnologyCollege/TheInformationTechnologyCollege/App_Data/CourseContext-20220414180350_log.ldf
+/TheInformationTechnologyCollege/TheInformationTechnologyCollege/App_Data/ModuleContext-20220414180525.mdf
+/TheInformationTechnologyCollege/TheInformationTechnologyCollege/App_Data/ModuleContext-20220414180525_log.ldf

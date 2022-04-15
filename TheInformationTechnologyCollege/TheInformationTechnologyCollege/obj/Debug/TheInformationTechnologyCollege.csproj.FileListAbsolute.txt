@@ -101,7 +101,6 @@ C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\
 C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationTechnologyCollege\TheInformationTechnologyCollege\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationTechnologyCollege\TheInformationTechnologyCollege\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationTechnologyCollege\TheInformationTechnologyCollege\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationTechnologyCollege\TheInformationTechnologyCollege\obj\Debug\TheInformationTechnologyCollege.csproj.AssemblyReference.cache
 C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationTechnologyCollege\TheInformationTechnologyCollege\obj\Debug\TheInformationTechnologyCollege.csproj.CoreCompileInputs.cache
 C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationTechnologyCollege\TheInformationTechnologyCollege\obj\Debug\TheInformationTechnologyCollege.csproj.CopyComplete
 C:\Users\sukhm\OneDrive\Desktop\usb backup\ADVANCED PROGRAMMING\GroupMVCProject\TheInformationTechnologyCollege\TheInformationTechnologyCollege\obj\Debug\TheInformationTechnologyCollege.dll

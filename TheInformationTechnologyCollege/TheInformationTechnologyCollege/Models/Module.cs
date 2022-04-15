@@ -12,6 +12,6 @@ namespace TheInformationTechnologyCollege.Models
         public virtual string ModulTitle { get; set; }
         public virtual string ModuleDescription { get; set; }
         public virtual string ModuleContents { get; set; }
-        public virtual Course Course { get; set; }
+        public virtual Tutor Tutor { get; set; }
     }
 }

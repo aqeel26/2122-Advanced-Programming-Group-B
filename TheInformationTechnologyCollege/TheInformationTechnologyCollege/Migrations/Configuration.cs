@@ -28,14 +28,14 @@ namespace TheInformationTechnologyCollege.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
-
+            /*
             var courses = new List<Course>
             {
                 new Course{CourseID=1, CourseName="Computer Science"},
                 new Course{CourseID=2, CourseName="Software Enginering"},
                 new Course{CourseID=3, CourseName="Cyber Security"}
             };
-            /*
+            
             courses.ForEach(course => context.Course.AddOrUpdate(p => p.courseId, course));
             context.SaveChanges();*/
         }
